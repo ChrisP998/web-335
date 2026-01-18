@@ -1,2 +1,4 @@
-# web-335
-Repository for Intro to NoSQL
+# WEB 335 Node.js
+## Contributors
+* Richard Krasso
+* Christopher Phan
