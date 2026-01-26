@@ -1,0 +1,22 @@
+{
+  "_id": "customer1",
+  "firstName": "John",
+  "lastName": "Doe",
+  "orders": [
+    {
+      "burger_id": "bgr01",
+      "burgerName": "Classic Cheeseburger",
+      "price": 4.99
+    },
+    {
+      "burger_id": "bgr02",
+      "burgerName": "Bleu Cheeseburger",
+      "price": 7.99
+    },
+    {
+      "burger_id": "bgr03",
+      "burgerName": "Fire Burger",
+      "price": 8.99
+    }
+  ]
+}
