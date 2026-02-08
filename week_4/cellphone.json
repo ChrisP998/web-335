@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "_id": "u1",
+      "firstName": "John",
+      "lastName": "Smith",
+      "devices": [
+        {
+          "_id": "d100",
+          "deviceName": "Galaxy S23",
+          "deviceType": "Smartphone",
+          "charger_id": "Anker Fast Charger"
+        },
+        {
+          "_id": "d200",
+          "deviceName": "iPhone 16",
+          "deviceType": "Smartphone",
+          "charger_id": "Anker Fast Charger"
+        }
+      ]
+    }
+  ],
+  "chargers": [
+    {
+      "_id": "c100",
+      "chargerType": "USB-C Charger with Fast Charging support",
+      "voltage": "20V"
+    }
+  ]
+}
