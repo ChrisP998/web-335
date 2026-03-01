@@ -23,8 +23,7 @@ franz = {
 }
 
 #Insert the document
-franz_user_id = db.users.insert_one(franz).inserted_id
-print(franz_user_id)
+db.users.insert_one(franz).inserted_id
 
 #Prove that the insert succeeded
 print(db.users.find_one({'employeeId': '2525'}))
@@ -39,4 +38,4 @@ print(db.users.find_one({'employeeId': '2525'}))
 db.users.delete_one({'employeeId': '2525'})
 
 #Prove that it was deleted
-print(db.users.find_one({'employeeId': '2525'}))
+print(db.users.find_one({'firstName': 'Franz'}))
