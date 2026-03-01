@@ -22,7 +22,7 @@ franz = {
     'dateCreated': datetime.now(UTC),
 }
 
-#Insert the document
+#Insert New User
 db.users.insert_one(franz).inserted_id
 
 #Prove that the insert succeeded
